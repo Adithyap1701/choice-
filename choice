@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int food;
+	printf("enter the value between 1 to 5 : ");
+	scanf("%d",&food);
+	switch(food)
+	{
+		case 1 : printf("burger rs 129\n");
+		break;
+		case 2 : printf("pizza rs 239\n");
+		break;
+		case 3 : printf("pasta rs 179\n");
+		break;
+		case 4 : printf("snadwich rs 149\n");
+		break;
+		case 5 : printf("french fries rs 99\n");
+		break;
+		default : printf("choice other than 1,2,3,4 and 5");
+	}
+	return 0;
+	}
